@@ -1,0 +1,125 @@
+/* McNeal Research Group — Spatial Thinking in Fluid-Earth Science */
+:root{
+  --ocean:#0b3d5c;
+  --ocean-deep:#072a40;
+  --sky:#2f7fae;
+  --sky-light:#cfe6f2;
+  --sand:#f4efe6;
+  --ink:#1c2733;
+  --muted:#5b6b78;
+  --line:#dfe6ec;
+  --white:#ffffff;
+  --max:1080px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  font-family:"Source Sans 3","Segoe UI",Helvetica,Arial,sans-serif;
+  color:var(--ink);
+  line-height:1.65;
+  background:var(--white);
+  font-size:18px;
+}
+h1,h2,h3{font-family:"Source Serif 4",Georgia,"Times New Roman",serif;line-height:1.2;color:var(--ocean-deep);}
+a{color:var(--sky);text-decoration:none;}
+a:hover{text-decoration:underline;}
+img{max-width:100%;height:auto;}
+
+/* Header / hero */
+.site-header{
+  position:relative;
+  background:linear-gradient(180deg,rgba(7,42,64,.55),rgba(7,42,64,.55)),
+    url("images/cropped-cropped-Sea-and-Sky-d1e296ee5d2b7846-5-1.jpg") center/cover no-repeat;
+  color:var(--white);
+  text-align:center;
+  padding:54px 20px 40px;
+}
+.site-header .eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:.72rem;opacity:.9;margin:0 0 8px;}
+.site-header h1{color:#fff;font-size:2.3rem;margin:0;}
+.site-header .tagline{margin:10px 0 0;font-size:1.05rem;opacity:.95;}
+
+/* Nav */
+nav.main{
+  background:var(--ocean-deep);
+  position:sticky;top:0;z-index:50;
+}
+nav.main ul{
+  list-style:none;margin:0;padding:0;
+  max-width:var(--max);margin-inline:auto;
+  display:flex;flex-wrap:wrap;justify-content:center;
+}
+nav.main a{
+  display:block;color:#dbe7f0;padding:14px 18px;font-size:.95rem;font-weight:600;
+  text-decoration:none;border-bottom:3px solid transparent;
+}
+nav.main a:hover,nav.main a.active{color:#fff;border-bottom-color:var(--sky);background:rgba(255,255,255,.05);}
+
+/* Layout */
+main{max-width:var(--max);margin:0 auto;padding:48px 22px 24px;}
+.lead{font-size:1.18rem;color:var(--muted);max-width:62ch;}
+section{margin-bottom:40px;}
+h2{font-size:1.7rem;border-bottom:2px solid var(--line);padding-bottom:8px;margin-top:0;}
+h3{font-size:1.25rem;}
+
+/* Breadcrumb */
+.crumb{font-size:.85rem;color:var(--muted);margin-bottom:6px;}
+.crumb a{color:var(--sky);}
+
+/* Cards grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px;}
+.card{
+  border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--white);
+  display:flex;flex-direction:column;transition:box-shadow .15s,transform .15s;
+}
+.card:hover{box-shadow:0 8px 24px rgba(11,61,92,.12);transform:translateY(-2px);}
+.card .thumb{aspect-ratio:3/2;background:var(--sky-light) center/cover no-repeat;}
+.card .body{padding:16px 18px;}
+.card h3{margin:0 0 6px;font-size:1.1rem;}
+.card p{margin:0;color:var(--muted);font-size:.95rem;}
+.card a.stretched{position:absolute;}
+
+/* People grid */
+.people{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:26px;}
+.person{text-align:center;}
+.person img{width:150px;height:150px;border-radius:50%;object-fit:cover;border:4px solid var(--sky-light);}
+.person .name{font-weight:700;margin:10px 0 2px;color:var(--ocean-deep);}
+.person .role{font-size:.85rem;color:var(--muted);}
+.person .aff{font-size:.8rem;color:var(--muted);font-style:italic;}
+
+/* Publications */
+.pub-list{list-style:none;padding:0;margin:0;}
+.pub-list li{
+  padding:16px 0;border-bottom:1px solid var(--line);
+  display:flex;gap:14px;align-items:baseline;
+}
+.pub-list li::before{content:"▸";color:var(--sky);font-size:1.1rem;}
+
+/* Callouts */
+.note{
+  background:var(--sand);border-left:4px solid var(--sky);
+  padding:14px 18px;border-radius:0 8px 8px 0;font-size:.92rem;color:var(--muted);
+}
+.funders{display:flex;flex-wrap:wrap;gap:24px;align-items:center;margin-top:18px;}
+.funders img{height:64px;width:auto;}
+
+figure{margin:24px 0;}
+figure img{border-radius:8px;border:1px solid var(--line);}
+figcaption{font-size:.85rem;color:var(--muted);margin-top:6px;}
+
+/* Buttons */
+.btn{display:inline-block;background:var(--sky);color:#fff;padding:10px 20px;border-radius:6px;font-weight:600;}
+.btn:hover{background:var(--ocean);text-decoration:none;}
+
+/* Footer */
+footer{
+  background:var(--ocean-deep);color:#bcd2e0;margin-top:48px;
+  padding:30px 22px;text-align:center;font-size:.85rem;
+}
+footer a{color:#9fd0ea;}
+
+@media(max-width:600px){
+  body{font-size:17px;}
+  .site-header h1{font-size:1.6rem;}
+  nav.main a{padding:11px 12px;font-size:.85rem;}
+}
