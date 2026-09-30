@@ -84,6 +84,7 @@ h3{font-size:1.25rem;}
 .person{text-align:center;}
 .person img{width:150px;height:150px;border-radius:50%;object-fit:cover;border:4px solid var(--sky-light);}
 .person .name{font-weight:700;margin:10px 0 2px;color:var(--ocean-deep);}
+.person .title{font-size:.85rem;font-weight:600;color:var(--ocean-deep);margin-bottom:2px;}
 .person .role{font-size:.85rem;color:var(--muted);}
 .person .aff{font-size:.8rem;color:var(--muted);font-style:italic;}
 

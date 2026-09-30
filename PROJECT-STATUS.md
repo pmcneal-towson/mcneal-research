@@ -1,6 +1,6 @@
 # McNeal Research Site — Project Status
 
-Last updated: 2026-08-18
+Last updated: 2026-09-30
 
 ## What this is
 Static HTML site replacing the old WordPress site at `wp.towson.edu/pmcneal/`.
@@ -58,6 +58,8 @@ Either path: make edits in this Cowork folder first (so links/structure get chec
 ## Changes after launch
 - 2026-06-09: `publications.html` — converted the top 4 full citations to the clean title-link format so all 11 entries are uniform (title as a clickable link to the DOI/source). Author/year/journal detail no longer displayed, per preference. Uploaded and verified live 2026-06-09.
 - 2026-08-18: Added Frankie Bolen (Research Assistant, Temple University) to `cognition-wild.html` Project Members, next to Courtney Sheckler; added her headshot (`images/Frankie-Bolen-headshot.png` — only 140×140px, worth swapping for a higher-res version if one becomes available). Added the published "Mental Fluid Transformation" paper (`https://doi.org/10.3390/educsci16081280`) to the top of `publications.html`. Committed locally via `device_bash`, then Peggy pushed live from her own Terminal (see "How to update the site" above for the git-push setup this required).
+
+- 2026-09-30: `team.html` — renamed "Graduate Students" to "Student Researchers"; moved Erika Heymann to Alumni; added a title line under each student (Graduate/Undergraduate Student Researcher, new `.person .title` style in `style.css`); added Jonathan Lopez (undergrad, `images/Jonathan-Lopez.jpg`, 600x600 square crop). Committed locally; Peggy pushes from Terminal.
 
 ## Open follow-ups (optional)
 - The `cognition-wild.html` "Learn More" link now points to a poster already shown in the Project Posters section above it — slightly redundant. Could remove that list item.
