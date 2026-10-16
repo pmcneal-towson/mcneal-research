@@ -61,6 +61,8 @@ Either path: make edits in this Cowork folder first (so links/structure get chec
 
 - 2026-09-30: `team.html` — renamed "Graduate Students" to "Student Researchers"; moved Erika Heymann to Alumni; added a title line under each student (Graduate/Undergraduate Student Researcher, new `.person .title` style in `style.css`); added Jonathan Lopez (undergrad, `images/Jonathan-Lopez.jpg`, 600x600 square crop). Committed locally; Peggy pushes from Terminal.
 
+- 2026-10-16: `hydrogeology.html` Learn More: the Towson News story had been archived (old URL redirected to the current news page). Replaced the link with a PDF of the archived story, `docs/towson-news-hydrogeology-grant-2021.pdf`. Committed locally; Peggy pushes from Terminal.
+
 ## Open follow-ups (optional)
 - The `cognition-wild.html` "Learn More" link now points to a poster already shown in the Project Posters section above it — slightly redundant. Could remove that list item.
 - `_new-material/` is empty and unused.
