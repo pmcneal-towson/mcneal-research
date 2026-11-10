@@ -63,6 +63,8 @@ Either path: make edits in this Cowork folder first (so links/structure get chec
 
 - 2026-10-16: `hydrogeology.html` Learn More: the Towson News story had been archived (old URL redirected to the current news page). Replaced the link with a PDF of the archived story, `docs/towson-news-hydrogeology-grant-2021.pdf`. Committed locally; Peggy pushes from Terminal.
 
+- 2026-11-10: New page `aser-workshop-2025.html` (2025 Educational Experiences in Atmospheric Science Field Campaigns: A Community Workshop), modeled on `aser-workshop-2023.html`. Sources: EER 2026 poster (EER_ASER_Poster_July26.pptx, ASER Field Campaign shared drive), BAMS meeting summary (Haacker et al. 2026, doi:10.1175/BAMS-D-25-0318.1), workshop Google Site. Photos (M. Burt) pulled from the poster: `images/aser-fc-*.jpg`. Poster PDF: `posters/poster-aser-field-campaigns-eer2026.pdf`. Linked from `aser.html` Learn More. Committed locally; Peggy pushes from Terminal.
+
 ## Open follow-ups (optional)
 - The `cognition-wild.html` "Learn More" link now points to a poster already shown in the Project Posters section above it — slightly redundant. Could remove that list item.
 - `_new-material/` is empty and unused.
